@@ -1,1 +1,25 @@
+(Q.1) What is variable?
+Ans) Variables are contaniners that store the  data or information that you want .
 
+(Q.2) What are the Types of Datatypes in java?
+Ans) There are 8 types of primitive data toes in java such as boolean, char,byte,int ,short,long ,float,double.
+And non primitive data types such as array ,class,interface and enum.
+
+(Q.3)  What is variable initialization?
+Ans) Assigning a value to a variable first time is called variable initilization.
+for ex. int z=35.
+
+(Q.4) Write all the size of all primitive datatypes.
+Ans)  byte - 8bits
+      short- 16bits
+      int -  32bits
+      long - 64bits
+      float - 32bits
+      char - 16bits
+      boolean- 1 bit
+
+(Q.5) Example of 3 invalid variable names.
+Ans) total marks=50    (use of space in name which is invalid)
+     4marks=10         (names only begin with alphabetical characater,undercsore _,or dollar sign $)
+     marks#            (special symbol invalid)
+     int                (keywords cannot be used as a variable)
