@@ -1,1 +1,30 @@
+1) How many looping statement are there in java ?
+Ans) 3 Looping statement in java 
+     a) while statement
+     b) for statement 
+     c) do while statement
 
+
+2) what is looping?
+Ans) The repetition structure allows to perform then same sequence of statements repeatedly
+until some condition is met.
+
+3) What is exit controlled loop?
+Ans) A loop with check the test condition before the execution of code is called exit controlled loop.
+
+
+4)Write a program to print numbers from 1 to 10.
+Ans) public class PrintNumbers
+{
+    public static void main(String[] args)
+    {
+        for(int i=1; i<=10; i++)
+        {
+            System.out.println(i);
+        }
+    }
+}
+
+
+5) what is while statement?
+Ans) The while statement evaluates the body of the loop till the test condition is true .
