@@ -1,1 +1,28 @@
+1) What is Abstraction in Java?
+Ans)  It is a technique by which we can hide the data that is not required to users. It hides all unwanted data so that users can work only with the required data.
 
+2) When to use Abstract class in Java?
+Ans) An abstract class can be used when we need to share the same method to all non-abstract sub classes with their own specific implementations.
+
+3) What is the difference between Abstraction and Encapsulation?
+Ans) Abstraction hides the implementation details from users whereas, encapsulation wraps(binds) data and code into a single unit.
+
+4 )What is the advantage of Abstract class in Java?
+Ans) (a) Abstract class makes programming better and more flexible by giving the scope of implementing abstract methods.
+    (b) Programmer can implement abstract method to perform different tasks depending on the need.
+    (c) We can easily manage code.
+
+5)  What is Encapsulation in Java? 
+Ans) Encapsulation is a programming technique that binds the class members (variables and methods) together and prevents them from being accessed by other classes
+     thereby we can keep variables and methods safes from outside interference and misuse.
+
+6) What does Java's inheritance mean?
+Ans) Inheritance is the term used in Java to describe the process of building a new class utilizing the features of an existing class.
+In other words, inheritance is how a child class acquires each parent class's traits.
+
+7) What kinds of inheritance are there in Java?
+Ans) a. Multi-level Inheritance
+     b. Single Inheritance
+     c. Multiple Inheritance 
+     d. Hybrid Inheritance and,
+     e. Hierarchical Inheritance
