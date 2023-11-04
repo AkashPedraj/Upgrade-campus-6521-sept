@@ -1,1 +1,93 @@
+1) Accessing array elements using index numbers                                     
+Ans) class Main {
+ public static void main(String[] args) {
+   int[] age = {12, 4, 5, 2, 5};
+   System.out.println("Elements of Array are :");
+   System.out.println("First Element: " + age[0]);
+   System.out.println("Second Element: " + age[1]);
+   System.out.println("Third Element: " + age[2]);
+   System.out.println("Fourth Element: " + age[3]);
+   System.out.println("Fifth Element: " + age[4]);
+ }
+}
 
+O/P- 
+ Elements of Array are :
+First Element: 12
+Second Element: 4
+Third Element: 5
+Fourth Element: 2
+Fifth Element: 5
+___________________________________________________________________________________________________________
+
+2) Java Program to print the array elements using for each loop
+Ans) class Testingarray1{  
+public static void main(String args[]){  
+int arr[]={33,3,6,5};   
+for(int i:arr)  
+System.out.println(i);  
+}
+}
+
+O/P-
+33
+3
+6
+5
+__________________________________________________________________________________________________________
+
+3) 
+Ans) class Car{  
+  void run(){System.out.println("running");}  
+}  
+class Audi extends Car{  
+  void run(){System.out.println("running safely with 50km");}  
+  
+  public static void main(String args[]){  
+    Car b = new Audi(); 
+    b.run();  
+  }  
+}  
+
+O/P-   running safely with 50km
+
+____________________________________________________________________________________________________________
+
+4) Linklist example(code)
+Ans) import java.util.LinkedList;
+
+class Main {
+  public static void main(String[] args)
+{
+    LinkedList<String> animals = new LinkedList<>();
+    animals.add("Dog");
+    animals.add("Tiger");
+    animals.add("Cow");
+    System.out.println("LinkedList: " + animals);
+  }
+}
+
+O/P-
+LinkedList: [Dog, Tiger, Cow]
+__________________________________________________________________________________________________________________
+
+5) Linklist using for-loop.
+Ans) import java.util.LinkedList;
+ class Main {
+    public static void main(String[] args) {
+        LinkedList&lt;String&gt; colorList = new LinkedList&lt;&gt;();
+        colorList.add("Purple");
+        colorList.add("Green");
+        colorList.add("Black");
+      
+        System.out.println("LinkedList elements using for loop:");
+        for(int i=0; i &lt; colorList.size(); i++) {
+            System.out.print(colorList.get(i) + " ");
+        }
+    }
+}
+
+O/P-
+LinkedList elements using for loop:
+Purple Green Black
+___________________________________________________________________________________________________________________
