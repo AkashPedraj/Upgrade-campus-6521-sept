@@ -1,1 +1,14 @@
+1) What is Sorting?
+Ans) A Sorting Algorithm is used to rearrange a given array or list of elements according to a comparison operator on the elements. 
+The comparison operator is used to decide the new order of elements in the respective data structure.
 
+2) What is Bubble sort?
+Ans) Bubble sort is a type of sorting algorithm you can use to arrange a set of values in ascending order
+
+3) What is Selection sort?
+Ans) Selection sort in java is an in-place comparison-based sorting algorithm that is known for its simplicity over other sorting algorithms.
+
+4) What is selection sort?
+Ans) Insertion sort is a simple sorting algorithm that allows for efficient, in-place sorting of the array, one element at a time.
+
+5)
