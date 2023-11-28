@@ -1,15 +1,15 @@
-1) What is Searching Algorithm?
+(1) What is Searching Algorithm?
 Ans) Searching Algorithms are designed to check for an element or retrieve an element from any data structure where it is stored.
 
-2) What is linear search?
+(2) What is linear search?
 Ans) Linear Search is defined as a sequential search algorithm that starts at one end and goes through each element of a list until the desired element is found, 
 otherwise the search continues till the end of the data set.
 
-3) What is Binary search?
+(3) What is Binary search?
 Ans) Binary Search is defined as a searching algorithm used in a sorted array by repeatedly dividing the search interval in half. 
 The idea of binary search is to use the information that the array is sorted and reduce the time complexity to O(log N).
 
-4) Linear search example(code).
+(4) Linear search example(code).
 Ans) public class LinearSearchExample{    
 public static int linearSearch(int[] arr, int key){    
         for(int i=0;i<arr.length;i++){    
@@ -27,7 +27,7 @@ public static int linearSearch(int[] arr, int key){
 }    
 
 
-5) Binary search example(code).
+(5) Binary search example(code).
 Ans) class BinarySearchExample{  
  public static void binarySearch(int arr[], int first, int last, int key){  
    int mid = (first + last)/2;  
