@@ -1,1 +1,58 @@
+1) What is Searching Algorithm?
+Ans) Searching Algorithms are designed to check for an element or retrieve an element from any data structure where it is stored.
+
+2) What is linear search?
+Ans) Linear Search is defined as a sequential search algorithm that starts at one end and goes through each element of a list until the desired element is found, 
+otherwise the search continues till the end of the data set.
+
+3) What is Binary search?
+Ans) Binary Search is defined as a searching algorithm used in a sorted array by repeatedly dividing the search interval in half. 
+The idea of binary search is to use the information that the array is sorted and reduce the time complexity to O(log N).
+
+4) Linear search example(code).
+Ans) public class LinearSearchExample{    
+public static int linearSearch(int[] arr, int key){    
+        for(int i=0;i<arr.length;i++){    
+            if(arr[i] == key){    
+                return i;    
+            }    
+        }    
+        return -1;    
+    }    
+    public static void main(String a[]){    
+        int[] a1= {10,20,30,50,70,90};    
+        int key = 50;    
+        System.out.println(key+" is found at index: "+linearSearch(a1, key));    
+    }    
+}    
+
+
+5) Binary search example(code).
+Ans) class BinarySearchExample{  
+ public static void binarySearch(int arr[], int first, int last, int key){  
+   int mid = (first + last)/2;  
+   while( first <= last ){  
+      if ( arr[mid] < key ){  
+        first = mid + 1;     
+      }else if ( arr[mid] == key ){  
+        System.out.println("Element is found at index: " + mid);  
+        break;  
+      }else{  
+         last = mid - 1;  
+      }  
+      mid = (first + last)/2;  
+   }  
+   if ( first > last ){  
+      System.out.println("Element is not found!");  
+   }  
+ }  
+ public static void main(String args[]){  
+        int arr[] = {10,20,30,40,50};  
+        int key = 30;  
+        int last=arr.length-1;  
+        binarySearch(arr,0,last,key);     
+ }  
+
+
+
 
