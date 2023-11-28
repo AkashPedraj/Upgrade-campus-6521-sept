@@ -11,4 +11,6 @@ Ans) Selection sort in java is an in-place comparison-based sorting algorithm th
 4) What is selection sort?
 Ans) Insertion sort is a simple sorting algorithm that allows for efficient, in-place sorting of the array, one element at a time.
 
-5)
+5) What is insertion vs selection sort Java?
+Ans) Insertion sort is more efficient than selection sort when the input array is partially sorted or almost sorted, while selection sort
+performs better when the array is highly unsorted.
