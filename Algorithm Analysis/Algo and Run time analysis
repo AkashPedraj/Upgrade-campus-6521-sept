@@ -1,1 +1,28 @@
+(1) What is Recursion?
+Ans) Recursion is an important programming technique that is used to solve many critical real-world problems.
+     It makes the code compact but complex to understand.
+
+(2) Any example for recurssion in java?
+Ans) Recursion Example-Infinite times:
+     public class RecursionExample {  
+    static void p(){  
+    System.out.println("hello");  
+    p();  
+    }  
+  
+public static void main(String[] args) {  
+p();  
+}  
+}  
+
+(3) WHat is fibonacci series in java?
+Ans)  A Fibonacci series in Java is a sequence of numbers such that every third number is equal to the sum of the previous two numbers
+
+
+(4) What is time complexity of recursive function?
+Ans) The time complexity of recursion depends on the number of times the function calls itself. If a function calls itself two times then its time complexity is O(2 ^ N)
+     if it calls three times then its time complexity is O(3 ^ N) and so on.
+
+(5) 
+
 
