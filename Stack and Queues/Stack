@@ -1,1 +1,41 @@
+(1) What is Stack?
+Ans) Stack is a linear data structure that follows a particular order in which the operations are performed. 
+The order may be LIFO(Last In First Out) or FILO(First In Last Out). LIFO implies that the element that is inserted last, comes out first and FILO implies that the element that is inserted first, comes out last.
 
+(2) Performing various operations on Stack class.
+Ans) a) Adding Elements: In order to add an element to the stack, we can use the push() method. This push() operation place the element at the top of the stack.
+     b) Accessing the Element: To retrieve or fetch the first element of the Stack or the element present at the top of the Stack, we can use peek() method.
+    c)  Removing Elements: To pop an element from the stack, we can use the pop() method. The element is popped from the top of the stack and is removed from the same.
+
+
+(3) How to create a stack?
+Ans) If we want to create a stack, first, import the java.util package and create an object of the Stack class.
+Stack stk = new Stack();  
+Or
+Stack<type> stk = new Stack<>();  
+
+(4) Example of Stack.(StackEmptyMethodExample.java).
+Ans)
+
+import java.util.Stack;  
+public class StackEmptyMethodExample  
+{  
+public static void main(String[] args)   
+{  
+Stack<Integer> stk= new Stack<>();  
+boolean result = stk.empty();  
+System.out.println("Is the stack empty? " + result);  
+stk.push(78);  
+stk.push(113);  
+stk.push(90);  
+stk.push(120);  
+  System.out.println("Elements in Stack: " + stk);  
+result = stk.empty();  
+   System.out.println("Is the stack empty? " + result);  
+}  
+}  
+
+
+(5) Real life Example of Stack?
+Ans) Real-life examples of a stack are a deck of cards, piles of books, piles of money, and many more.
+     This example allows you to perform operations from one end only, like when you insert and remove new books from the top of the stack
