@@ -1,1 +1,64 @@
+1) What are the different data types present in javascript?
+Ans) 1. What are the different data types present in javascript?
+To know the type of a JavaScript variable, we can use the typeof operator.
 
+1. Primitive types
+
+String - It represents a series of characters and is written with quotes. A string can be represented using a single or a double quote.
+
+Example :
+
+var str = "Vivek Singh Bisht"; //using double quotes
+var str2 = 'John Doe'; //using single quotes
+
+Boolean - It represents a logical entity and can have only two values : true or false. Booleans are generally used for conditional testing.
+Example :
+
+var a = 2;
+var b =  3;
+var c =  2;
+(a == b) // returns false
+(a == c) //returns true
+
+
+2) Explain Hoisting in javascript?
+Ans) Hoisting is the default behaviour of javascript where all the variable and function declarations are moved on top
+Example 1:
+
+hoistedVariable = 3;
+console.log(hoistedVariable); // outputs 3 even when the variable is declared after it is initialized	
+var hoistedVariable;
+Example 2:
+
+hoistedFunction();  // Outputs " Hello world! " even when the function is declared after calling
+
+function hoistedFunction(){ 
+  console.log(" Hello world! ");
+} 
+
+3) Difference between var and let keyword in javascript.
+Ans) From the very beginning, the 'var' keyword was used in JavaScript programming whereas the keyword 'let' was just added in 2015.
+The keyword 'Var' has a function scope. Anywhere in the function, the variable specified using var is accessible but in ‘let’ the scope of a variable declared with the 'let' keyword is limited to the block in which it is declared. Let's start with a Block Scope.
+In ECMAScript 2015, let and const are hoisted but not initialized. Referencing the variable in the block before the variable declaration results in a ReferenceError because the variable is in a "temporal dead zone" from the start of the block until the declaration is processed.
+
+4) Explain passed by value and passed by reference?
+Ans) In JavaScript, primitive data types are passed by value and non-primitive data types are passed by reference.
+
+For understanding passed by value and passed by reference, we need to understand what happens when we create a variable and assign a value to it,
+
+var x = 2;
+In the above example, we created a variable x and assigned it a value of “2”. In the background, the “=” (assign operator) allocates some space in the memory, stores the value “2” and returns the location of the allocated memory space. 
+Therefore, the variable x in the above code points to the location of the memory space instead of pointing to the value 2 directly.
+
+5)  Explain “this” keyword.?
+Ans) The “this” keyword refers to the object that the function is a property of.
+
+The value of the “this” keyword will always depend on the object that is invoking the function.\
+
+Confused? Let’s understand the above statements by examples:
+
+function doSomething() {
+  console.log(this);
+}
+   
+doSomething();
