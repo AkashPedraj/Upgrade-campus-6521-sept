@@ -1,1 +1,35 @@
+1) what is Graphs and Graph Algorithms?
+Ans) A Graph Data Structure is a collection of nodes connected by edges. It’s used to represent relationships between different entities. Graph algorithms are methods used to manipulate and analyze graphs, 
+solving various problems like finding the shortest path or detecting cycles.
 
+2) Representations of Graph?
+Ans) Here are the two most common ways to represent a graph :
+
+a) Adjacency Matrix
+b) Adjacency List
+
+Adjacency Matrix
+An adjacency matrix is a way of representing a graph as a matrix of boolean (0’s and 1’s).
+Adjacency List
+An array of Lists is used to store edges between two vertices. The size of array is equal to the number of vertices (i.e, n). Each index in this array represents a specific vertex in the graph
+
+
+3) Types of Graphs with Examples
+Ans ) Undirected Graphs: A graph in which edges have no direction, i.e., the edges do not have arrows indicating the direction of traversal. Example: A social network graph where friendships are not directional.
+Directed Graphs: A graph in which edges have a direction, i.e., the edges have arrows indicating the direction of traversal. Example: A web page graph where links between pages are directional.
+Weighted Graphs: A graph in which edges have weights or costs associated with them. Example: A road network graph where the weights can represent the distance between two cities.
+Unweighted Graphs: A graph in which edges have no weights or costs associated with them. Example: A social network graph where the edges represent friendships.
+Complete Graphs: A graph in which each vertex is connected to every other vertex. Example: A tournament graph where every player plays against every other player.
+
+4) Types of Graphs?
+Ans)  Finite Graphs-  A graph is said to be finite if it has a finite number of vertices and a finite number of edges. A finite graph is a graph with a finite number of vertices and edges
+      Infinite Graph: A graph is said to be infinite if it has an infinite number of vertices as well as an infinite number of edges. 
+      Trivial Graph - A graph is said to be trivial if a finite graph contains only one vertex and no edge. A trivial graph is a graph with only one vertex and no edges
+
+5) Basic Properties of a Graph?
+Ans) Vertices (nodes): The points where edges meet in a graph are known as vertices or nodes. A vertex can represent a physical object, concept, or abstract entity.
+Edges: The connections between vertices are known as edges. They can be undirected (bidirectional) or directed (unidirectional).
+Weight: A weight can be assigned to an edge, representing the cost or distance between two vertices. A weighted graph is a graph where the edges have weights.
+Degree: The degree of a vertex is the number of edges that connect to it. In a directed graph, the in-degree of a vertex is the number of edges that point to it, and the out-degree is the number of edges that start from it.
+Path: A path is a sequence of vertices that are connected by edges. A simple path does not contain any repeated vertices or edges.
+Cycle: A cycle is a path that starts and ends at the same vertex. A simple cycle does not contain any repeated vertices or edges.
