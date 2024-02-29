@@ -1,1 +1,30 @@
+1) What is Binary Search Tree?
+Ans) In a binary search tree, the elements are arranged following a specific order. The rule is that the value of a left node must be smaller than its parent node, and the value of a right node must be greater than its parent node. This rule is repeated over and over again for the left and right parts of the tree,
+starting from the main starting point called the root.
 
+2) what are Binary Search Tree Operations?
+Ans) 1. Insertion:
+        Adding a new node with a given key value into the BST while maintaining the BST property.
+        Compare the key value with the current node and traverse left or right until finding an appropriate spot to insert the new node.
+2. Search
+        Finding a specific key value within the BST.
+        Start from the root node and compare the target key with the current node's key.
+        Move left or right in the tree based on the comparison until finding a match or reaching a leaf node.
+3. Deletion:
+        Removing a node with a specific key value from the BST.
+        Handle different scenarios: a node has no children, a node has one child, or a node has two children.
+        Reorganize the tree while maintaining the BST property.
+
+
+3)How many types of binary trees are there for example?
+Ans) Full binary tree: Every parent node or an internal node has either exactly two children or no child nodes. Complete binary tree: All levels except the last one are full of nodes.
+Degenerate binary tree: All the internal nodes have only one child.
+
+
+4) What are the applications of binary tree?
+Ans ) Binary Search Tree (BST) on the other hand, is a special form of Binary Tree data structure where each node has a comparable value, and smaller valued children attached to left and larger valued children attached to the right.
+Thus, all BST's are Binary Tree however only some Binary Tree's may be also BST.
+
+5) What are 2 types of binary tree representation?
+Ans) Two common linear ways of representing binary tree in memory are array-based linearization and in-order linearization. Array-Based Linearization: In the linear representation of binary tree, the tree is linearized into an array by traversing it in a specific order,
+such as level order or inorder
