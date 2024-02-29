@@ -1,1 +1,73 @@
+1)  Name some CSS frameworks?
+Ans) CSS frameworks are libraries that make web page styling easier. Some of them are Foundation, Bootstrap, Gumby, Ukit, Semantic UI, etc. 
 
+2) What do you understand by the universal sector?
+Ans ) A universal selector is a selector that matches any element type's name instead of selecting elements of a particular type. 
+
+Example: 
+
+<style>    
+
+* {    
+
+   color: blue;    
+
+   font-size: 10px;    
+
+}     
+
+</style>    
+
+
+3)  What are the elements of the CSS Box Model?
+Ans) The CSS box model defines the layout and design of CSS elements. 
+The elements are content (like text and images, padding (the area around content), border (the area around padding), and margin (the area around the border).
+
+4)  Differentiate between CSS3 and CSS2.?
+Ans )The main difference between CSS3 and CSS2 is that CSS divides different sections into modules and supports many browsers. It also contains new General Sibling Combinators responsible for matching similar elements
+
+
+5) . How can CSS be integrated into an HTML page?
+ANS) Web applications and websites are increasing in every industry, and CSS is essential to build attractive websites. Currently, there is a tremendous demand for web developers who have a good knowledge of HTML and CSS. To build a career in web designing, candidates need to crack interviews where they ask CSS interview questions. 
+
+In this article, we have consolidated a list of CSS interview questions and divided the questions into four sections: basic CSS interview questions, intermediate CSS interview questions, advanced CSS interview questions, and frequently asked CSS interview questions. This list would be helpful for both experienced professionals and freshers. Let us start with this CSS interview questions guide. 
+
+Basic CSS Interview Questions
+Let us begin with the basic CSS interview questions!
+
+1. Name some CSS frameworks. 
+CSS frameworks are libraries that make web page styling easier. Some of them are Foundation, Bootstrap, Gumby, Ukit, Semantic UI, etc. 
+
+2. What do you understand by the universal sector?
+A universal selector is a selector that matches any element type's name instead of selecting elements of a particular type. 
+
+Example: 
+
+<style>    
+
+* {    
+
+   color: blue;    
+
+   font-size: 10px;    
+
+}     
+
+</style>    
+
+Want a Top Software Development Job? Start Here!
+Full Stack Development-MEANEXPLORE PROGRAMWant a Top Software Development Job? Start Here!
+3. Tell us about the use of the ruleset.
+The ruleset is used for the identification of selectors, which can be attached with other selectors. The two parts of a ruleset are:
+
+Declaration block: contains one or more semicolon-separated declarations
+Sector: indicates the HTML element needed to be styled
+
+4). What are the elements of the CSS Box Model?
+The CSS box model defines the layout and design of CSS elements. The elements are content (like text and images, padding (the area around content), border (the area around padding), and margin (the area around the border). 
+
+5). Differentiate between CSS3 and CSS2.
+The main difference between CSS3 and CSS2 is that CSS divides different sections into modules and supports many browsers. It also contains new General Sibling Combinators responsible for matching similar elements. 
+
+6). How can CSS be integrated into an HTML page?
+There are three ways of integrating CSS into HTML: using style tags in the head section, using inline-styling, writing CSS in a separate file, and linking into the HTML page by the link tag. 
