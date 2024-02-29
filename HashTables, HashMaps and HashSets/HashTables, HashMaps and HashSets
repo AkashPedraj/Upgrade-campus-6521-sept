@@ -1,1 +1,18 @@
+1) HashSet Vs HashMap Vs HashTable In Java?
+Ans) HashMap and Hashtable stores values in key-value pair. HashSet contains unique elements and HashMap, HashTable contains unique keys. Having these similarities they have some differences also.  
 
+2) What is  HashSet ?
+ANs) HashSet inherits AbstractSet class and implements Set interface. Set objects are always unique and no duplicate objects are allowed. One null key value is allowed.
+The hashing mechanism is used to insert the objects into a HashSet.
+
+3)  what is HashMap?
+Ans) HashMap class in java, implements the map interface by using a HashTable. It inherits AbstractMap class and implements the Map interface. It represents a group of objects and every object will be in key-value pair form. It maintains no order for its elements. 
+Duplicate key is not allowed. It can have only one null as key and multiple null as values
+
+
+4) What is Hashtable?
+Ans) Hashtable inherits Dictionary class and implements Map interface. Hashtable contains elements/objects/items in key-value pair and does not allow any duplicate key. It is Thread-Safe because of its synchronized nature. 
+The null is not allowed for both key and value. The hashcode() method is used to find the position of the elements.
+
+5)What is the difference between HashTable HashMap and HashSet?
+Ans) HashMap and Hashtable stores values in key-value pair. HashSet contains unique elements and HashMap, HashTable contains unique keys.
