@@ -1,0 +1,65 @@
+body {
+    background-color: #ffeedd;
+}
+.post-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.post-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.author-info {
+    margin-bottom: 10px;
+}
+
+.edit-button {
+    float: right;
+    background-color: transparent;
+    color: #007bff;
+    border: none;
+    cursor: pointer;
+}
+
+.post-text {
+    margin-bottom: 20px;
+}
+
+.like-button,
+.comment-button {
+    background-color: #ff4b5c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.comment-input {
+    width: calc(100% - 120px);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.comments-container {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.comment {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.modal {
+    display: none;
+    
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post</title>
+    <link rel="stylesheet" href="styles/post.css">
+</head>
+<body>
+    <header>
+    </header>
+    <main class="post-container">
+        <h1 class="post-title">Post Title</h1>
+        <div class="author-info">Author: <span class="author-name">Author Name</span></div>
+        <button id="editBtn" class="edit-button"><i class="fas fa-edit"></i> Edit</button>
+        <p class="post-text">Post text goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <button id="likeBtn" class="like-button"><i class="fas fa-thumbs-up"></i> Like</button>
+        <div id="likeStatus">Be the first one to like this!</div>
+        <input type="text" id="commentInput" class="comment-input" placeholder="Leave a comment...">
+        <button id="commentBtn" class="comment-button">Comment</button>
+        <div id="allComments" class="comments-container">
+        </div>
+    </main>
+
+    <script src="scripts/post.js"></script>
+</body>
+</html>

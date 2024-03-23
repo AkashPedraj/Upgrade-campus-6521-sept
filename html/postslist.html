@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Posts</title>
+    <link rel="stylesheet" href="styles/postslist.css">
+</head>
+<body>
+    <header>
+    </header>
+    <main class="posts-container">
+        <div class="post-card">
+            <div class="post-header">
+                <span class="username">Username</span>
+                <span class="delete-icon"><i class="fas fa-trash"></i></span>
+            </div>
+            <div class="post-content">
+                <h2 class="post-title">Post Title</h2>
+                <p class="post-text">Post text goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <span class="ellipsis-icon"><i class="fas fa-ellipsis-h"></i></span>
+            </div>
+        </div>
+    </main>
+
+    <div id="deleteModal" class="modal">
+    </div>
+
+    <script src="scripts/postslist.js"></script>
+</body>
+</html>

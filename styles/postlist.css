@@ -1,0 +1,55 @@
+body {
+    background-color: #ffeedd;
+}
+
+.posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.post-card {
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.delete-icon {
+    cursor: pointer;
+}
+
+.post-title {
+    margin-bottom: 10px;
+}
+
+.post-text {
+    margin-bottom: 20px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical;
+}
+
+.ellipsis-icon {
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+
+}
